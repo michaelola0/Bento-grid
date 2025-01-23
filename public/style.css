@@ -556,156 +556,72 @@ video {
   display: none;
 }
 
-.flex{
-  display: flex;
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
+.col-start-2{
+  grid-column-start: 2;
+}
+
+.col-start-1{
+  grid-column-start: 1;
+}
+
+.row-span-2{
+  grid-row: span 2 / span 2;
+}
+
+.row-span-4{
+  grid-row: span 4 / span 4;
+}
+
+.row-start-1{
+  grid-row-start: 1;
 }
 
 .grid{
   display: grid;
 }
 
-.h-\[100\%\]{
-  height: 100%;
-}
-
-.h-\[30\%\]{
-  height: 30%;
-}
-
-.h-\[881px\]{
-  height: 881px;
-}
-
-.min-h-\[415px\]{
-  min-height: 415px;
-}
-
-.min-h-\[434px\]{
-  min-height: 434px;
+.h-\[247px\]{
+  height: 247px;
 }
 
 .min-h-screen{
   min-height: 100vh;
 }
 
-.min-h-\[100\%\]{
-  min-height: 100%;
-}
-
-.w-\[25\%\]{
-  width: 25%;
-}
-
-.w-\[75\%\]{
-  width: 75%;
-}
-
-.w-\[100\%\]{
-  width: 100%;
-}
-
-.w-\[30\%\]{
-  width: 30%;
-}
-
-.w-\[70\%\]{
-  width: 70%;
-}
-
-.w-\[30\.7\%\]{
-  width: 30.7%;
+.min-h-\[247px\]{
+  min-height: 247px;
 }
 
 .w-\[65\%\]{
   width: 65%;
 }
 
-.min-w-\[70\%\]{
-  min-width: 70%;
-}
-
-.min-w-\[65\%\]{
-  min-width: 65%;
-}
-
-.min-w-\[65\.38\%\]{
-  min-width: 65.38%;
-}
-
-.min-w-\[30\%\]{
-  min-width: 30%;
-}
-
 .max-w-\[1120px\]{
   max-width: 1120px;
-}
-
-.grid-cols-1{
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.grid-rows-2{
-  grid-template-rows: repeat(2, minmax(0, 1fr));
-}
-
 .grid-rows-10{
   grid-template-rows: repeat(10, minmax(0, 1fr));
-}
-
-.flex-row{
-  flex-direction: row;
-}
-
-.flex-col{
-  flex-direction: column;
 }
 
 .place-items-center{
   place-items: center;
 }
 
-.content-between{
-  align-content: space-between;
-}
-
-.items-end{
-  align-items: flex-end;
-}
-
-.items-center{
-  align-items: center;
-}
-
-.items-stretch{
-  align-items: stretch;
-}
-
-.justify-end{
-  justify-content: flex-end;
-}
-
-.justify-center{
-  justify-content: center;
-}
-
-.justify-between{
-  justify-content: space-between;
-}
-
-.justify-items-stretch{
-  justify-items: stretch;
+.gap-6{
+  gap: 1.5rem;
 }
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-6{
-  gap: 1.5rem;
 }
 
 .rounded-\[10px\]{
@@ -715,16 +631,6 @@ video {
 .bg-\[\#F6F5F6\]{
   --tw-bg-opacity: 1;
   background-color: rgb(246 245 246 / var(--tw-bg-opacity, 1));
-}
-
-.bg-yellow100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 238 226 / var(--tw-bg-opacity, 1));
-}
-
-.bg-yellow500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 204 106 / var(--tw-bg-opacity, 1));
 }
 
 .bg-purple500{
@@ -737,24 +643,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-slate-600{
+.bg-yellow100{
   --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity, 1));
+  background-color: rgb(249 238 226 / var(--tw-bg-opacity, 1));
 }
 
-.bg-purple100{
+.bg-yellow500{
   --tw-bg-opacity: 1;
-  background-color: rgb(219 209 252 / var(--tw-bg-opacity, 1));
-}
-
-.bg-red-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-600{
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+  background-color: rgb(255 204 106 / var(--tw-bg-opacity, 1));
 }
 
 .p-6{
@@ -765,9 +661,9 @@ video {
   padding: 2rem;
 }
 
-.px-\[159px\]{
-  padding-left: 159px;
-  padding-right: 159px;
+.px-\[24px\]{
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .py-\[84px\]{
@@ -775,35 +671,21 @@ video {
   padding-bottom: 84px;
 }
 
-.px-\[64px\]{
-  padding-left: 64px;
-  padding-right: 64px;
-}
-
-.px-\[24px\]{
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.text-center{
-  text-align: center;
-}
-
 .font-dmsans{
   font-family: "DM Sans", serif;
-}
-
-.text-textPreset2{
-  font-size: 40px;
-  line-height: 90%;
-  letter-spacing: -2px;
-  font-weight: 500;
 }
 
 .text-textPreset1{
   font-size: 62px;
   line-height: 93%;
   letter-spacing: -3px;
+  font-weight: 500;
+}
+
+.text-textPreset2{
+  font-size: 40px;
+  line-height: 90%;
+  letter-spacing: -2px;
   font-weight: 500;
 }
 
@@ -821,11 +703,6 @@ video {
 .text-purple500{
   --tw-text-opacity: 1;
   color: rgb(117 81 220 / var(--tw-text-opacity, 1));
-}
-
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .text-yellow500{
