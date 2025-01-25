@@ -685,6 +685,10 @@ video {
   max-width: 247px;
 }
 
+.max-w-\[357\.3px\]{
+  max-width: 357.3px;
+}
+
 .shrink-0{
   flex-shrink: 0;
 }
@@ -999,5 +1003,29 @@ video {
     line-height: 26px;
     letter-spacing: -6%;
     font-weight: 500;
+  }
+}
+
+@media not all and (min-width: 640px){
+  .max-sm\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .max-sm\:w-\[308\.06px\]{
+    width: 308.06px;
+  }
+
+  .max-sm\:w-\[100\%\]{
+    width: 100%;
+  }
+
+  .max-sm\:max-w-\[308\.06px\]{
+    max-width: 308.06px;
+  }
+
+  .max-sm\:bg-slate-400{
+    --tw-bg-opacity: 1;
+    background-color: rgb(148 163 184 / var(--tw-bg-opacity, 1));
   }
 }
