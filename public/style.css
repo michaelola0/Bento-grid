@@ -980,6 +980,11 @@ video {
     padding: 2rem;
   }
 
+  .max-lg\:py-\[51px\]{
+    padding-top: 51px;
+    padding-bottom: 51px;
+  }
+
   .max-lg\:text-center{
     text-align: center;
   }
@@ -1012,6 +1017,18 @@ video {
     margin-right: auto;
   }
 
+  .max-sm\:h-\[290px\]{
+    height: 290px;
+  }
+
+  .max-sm\:h-\[162\.54px\]{
+    height: 162.54px;
+  }
+
+  .max-sm\:h-\[216\.25px\]{
+    height: 216.25px;
+  }
+
   .max-sm\:w-\[308\.06px\]{
     width: 308.06px;
   }
@@ -1024,8 +1041,34 @@ video {
     max-width: 308.06px;
   }
 
+  .max-sm\:grid-cols-1{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
   .max-sm\:bg-slate-400{
     --tw-bg-opacity: 1;
     background-color: rgb(148 163 184 / var(--tw-bg-opacity, 1));
+  }
+
+  .max-sm\:py-\[\]{
+    padding-top: ;
+    padding-bottom: ;
+  }
+
+  .max-sm\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .max-sm\:py-\[38px\]{
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+
+  .max-sm\:text-textPreset1Mobile{
+    font-size: 46px;
+    line-height: 42px;
+    letter-spacing: -4p%;
+    font-weight: 500;
   }
 }
